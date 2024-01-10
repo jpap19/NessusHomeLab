@@ -224,9 +224,9 @@ We are going to install a deprecated software (old version of firefox for exampl
 STEP 4: PATCH AND REMEDIATE VULNERABILITIES
 In this section, We will uninstall old version of firefox and perform windows updates, then run Nessus scaning again to see the remediations achieved.
 
-4.1 Old Firefox uninstalled<br/>
+4.1 Old version of Firefox uninstalled<br/>
 
-<img src=".https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan1.png" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan1.png" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -234,33 +234,30 @@ In this section, We will uninstall old version of firefox and perform windows up
 
 4.2.1 Windows not up to date <br/>
 
-<img src=".https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan2.png" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan2.png" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 4.2.2 Windows update performed<br/>
 
-<img src=".https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan3.png" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan3.png" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 4.3 Very less Vulnerabbilities discovered after remediations applied.  <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan1.png" alt="Nessus Essential Home Lab"/>
+4.3.1 Less Vulnerabbilities discovered after remediations applied.  <br/>
+
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan4.png" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
-4.4 Example 1 of vulnerability identify: SMB signing not required.  vulnerabilities discovered compared to only 35 earlier with the previous scan. <br/>
+4.3.2 Less Vulnerabbilities discovered after remediations applied.  <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul2.png" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan6.png" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
-4.5 Example 2 of vulnerability identify: Microsoft Windows (Multiple Issues).  vulnerabilities discovered with  critical compared to 35 earlier with 7 critical in the previous scan <br/>
-
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul3.png" alt="Nessus Essential Home Lab"/>
-<br />
-<br />
 
 <!--
  ```diff
