@@ -33,12 +33,12 @@ Go to the link provided here above, download and install VMware SANDBOX, then do
  
 1.1 VMware SANDBOX installed: <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/VmwareInstalled.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/VmwareInstalled.png" height="150%" width="100%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 1.2 VIRTUAL MACHINE CREATED FOR VULNERABILITY ASSESSMENT AND WINDOWS 10 INSTALLED ON IT: <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/WindowsInstalledOnVM.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/WindowsInstalledOnVM.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -48,7 +48,7 @@ STEP 2: INSTALL and CONFIGURE NESSUS SCANNER: Follow the link above to Nessus, r
 
 2.1.1 NESSUS ESSENTIAL Registration Page
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NessusDownloadPage.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NessusDownloadPage.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -66,7 +66,7 @@ STEP 2: INSTALL and CONFIGURE NESSUS SCANNER: Follow the link above to Nessus, r
 
 2.1.4 NESSUS ESSENTIAL localhost logged in : <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NessusLocalHost2.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NessusLocalHost2.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -77,37 +77,37 @@ STEP 3: IDENTIFY VULNERABILITY ON WINDOWS HOST
 3.1.1 Virtual Machine Connectivity Test : From wf.msc, disable all public and private firewall profiles on the Windows Host VM. <br/>
 Get the IP address of the windows 10 host installed on the virtual machine, verified it can be reached from our home network (Ping Test is successfull)  <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/WindowsHostPing.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/WindowsHostPing.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.1.2 Copy the IP address (here 192.168.137.128) of the windows host in the Virtual machine and used it create a new scan in Nessus Essential (Choose Basic Network Scan)<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NewScanBasicScan.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NewScanBasicScan.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.1.3 Nessus Basic Scan creation (paste the IP address in the target area)<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NewScanBasicScan2.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NewScanBasicScan2.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.1.4 Nessus Basic Scan running(Click on the play button to start scanning)<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NewScanBasicScan3.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/NewScanBasicScan3.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.1.5 Nessus Basic Scan Continuing<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/scan1.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/scan1.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.1.6 Nessus Basic Scan Complete<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/scan3.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/scan3.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -115,7 +115,7 @@ Get the IP address of the windows 10 host installed on the virtual machine, veri
 
 3.2.1 Example 1 of vulnerability identify: SMB signing not required. 17 vulnerabilities discovered <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/scan5.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/scan5.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -132,22 +132,22 @@ On the virtual host, first go to service.msc, Enable remote registry and turn it
 and finally add a key to the register editor to allow remote connection to the windows virtual machine, <br/>
 
 3.3.1 Remote registry Enable: set startup type to Automatic and click start buton <br/>
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemoteRegist.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemoteRegist.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.3.1 Enable firewall and printer sharing <br/>
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FileAndPrintSharing.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FileAndPrintSharing.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.3.2 Disable user account sharing <br/>
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/UserAccoutSharing.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/UserAccoutSharing.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.3.4 Registry key adding: Open register editor, browse to local machine, software, microsoft, windows, current version, policies, system. and then create the DWORD called "LocalAccountTokenFilterPolicy" hit enter and set value data to 1 and retart the virtual machine  <br/>
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/registryeditor.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/registryeditor.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -155,13 +155,13 @@ and finally add a key to the register editor to allow remote connection to the w
 On the my Scans page, click on the windows host, choose more, click on credentials, filled up using the VmWare username and password, and hit save buton.<br/>
 
 3.4.1 Nessus Essential Credentials Scan configurations <br/>
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/CredentialScan1.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/CredentialScan1.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.4.2 Nessus Essential Credentials Scan running (Go back to My Scans page, select windows host and hit the play buton to start the credentials scanning.  Nessus Essential Credentials Scan Complete<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul1.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul1.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -169,13 +169,13 @@ On the my Scans page, click on the windows host, choose more, click on credentia
 
 3.5.1 Example 1 of vulnerability identify: SMB signing not required. 33 vulnerabilities discovered compared to only 17 earlier with the bacic scan. <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul2.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul2.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.5.2 Example 2 of vulnerability identify: Microsoft Windows (Multiple Issues). 33 vulnerabilities discovered with 7 critical compared to 17 earlier with no critical in the bacic scan <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul3.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/IdentfyVul3.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -185,13 +185,13 @@ We are going to install a deprecated software (old version of firefox for exampl
 
 3.6.1 Old version of firefox (3.6.12 ) downloading on the windows host <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/OldFirefox.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/OldFirefox.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.6.2 Old version of firefox (3.5.2 ) installed on the windows host <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/OldFirefox2.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/OldFirefox2.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -199,25 +199,25 @@ We are going to install a deprecated software (old version of firefox for exampl
 
 3.6.3.1 Move vulnerabilities after scaning with the old versions of firefox installed. many more Critical or high vulnerabilities discovered <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan1.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan1.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.6.3.1 Many vulnerabilities (35) discovered in the old version of firefox installed. <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan3.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan3.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.6.3.3 Example 1 of vulnerability identify: SMB signing not required. 35 vulnerabilities discovered compared to only 33 earlier with the previous scan. <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan2.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan2.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 3.6.3.4 Example 2 of vulnerability identify: Microsoft Windows (Multiple Issues).  35 vulnerabilities discovered with 7 critical compared to 33 earlier in the previous scan <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan4.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/FirefoxScan4.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -226,7 +226,7 @@ In this section, We will uninstall old version of firefox and perform windows up
 
 4.1 Old version of Firefox uninstalled<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan1.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan1.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -234,13 +234,13 @@ In this section, We will uninstall old version of firefox and perform windows up
 
 4.2.1 Windows not up to date <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan2.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan2.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 4.2.2 Windows update performed<br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan3.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan3.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
@@ -248,13 +248,13 @@ In this section, We will uninstall old version of firefox and perform windows up
 
 4.3.1 Less Vulnerabbilities discovered after remediations applied.  <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan4.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan4.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
 4.3.2 Less Vulnerabbilities discovered after remediations applied.  <br/>
 
-<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan6.png" height="100%" width="100%" alt="Nessus Essential Home Lab"/>
+<img src="https://github.com/jpap19/NessusHomeLab/blob/main/Images/RemediateScan6.png" height="150%" width="150%" alt="Nessus Essential Home Lab"/>
 <br />
 <br />
 
